@@ -21,6 +21,10 @@ body {
 	margin: 0px;
 }
 
+.body {
+	margin: 10px;
+}
+
 .topnav {
 	background-color: var(--dark-purple);
 	overflow: hidden;
