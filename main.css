@@ -1,0 +1,57 @@
+:root {
+	
+	--background: #20003C;
+	--text: #000000;
+	--navbar-bg: #618B4A;
+	--navbar-active: #88A469;
+	--navbar-hover: #AFBC88;
+	
+	--green-one: #D4DABE;
+	--green-two: #AFBC88;
+	--green-three: #88A469;
+	--green-four: #618B4A;
+	--green-five: #40531B;
+	
+}
+
+html {
+	background-color: var(--background);
+}
+
+body {
+	background-color: var(--background);
+	color: var(--text);
+	font-family: trebuchet ms, sans-serif;
+	margin: 0px;
+}
+
+.topnav {
+	background-color: var(--navbar-bg);
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	color: var(--green-two);
+	text-align: center;
+	padding: 0px 16px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.topnav a:hover {
+	background-color: var(--navbar-hover);
+	color: var(--navbar-bg);
+}
+
+.topnav a.active {
+	background-color: var(--navbar-active);
+	color: var(--green-five);
+}
+
+a:link {
+	color: var(--green-one);
+
+a:visited {
+	color: var(--green-five);
+}
