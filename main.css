@@ -1,38 +1,34 @@
 :root {
 	
-	--background: #20003C;
-	--text: #000000;
-	--navbar-bg: #618B4A;
-	--navbar-active: #88A469;
-	--navbar-hover: #AFBC88;
-	
-	--green-one: #D4DABE;
-	--green-two: #AFBC88;
-	--green-three: #88A469;
-	--green-four: #618B4A;
-	--green-five: #40531B;
+	--dark-purple: #20003C;
+	--gray: #5B5B5B;
+	--purple: #8338EC;
+	--purple-two: #A26AF1;
+	--ivory: #FFFFF3;
+	--light-purple: #D8DCFF;
+	--violet: #6B4E71;
 	
 }
 
 html {
-	background-color: var(--background);
+	background-color: var(--violet);
 }
 
 body {
-	background-color: var(--background);
-	color: var(--text);
+	background-color: var(--violet);
+	color: var(--ivory);
 	font-family: trebuchet ms, sans-serif;
 	margin: 0px;
 }
 
 .topnav {
-	background-color: var(--navbar-bg);
+	background-color: var(--dark-purple);
 	overflow: hidden;
 }
 
 .topnav a {
 	float: left;
-	color: var(--green-two);
+	color: var(--purple-two);
 	text-align: center;
 	padding: 0px 16px;
 	text-decoration: none;
@@ -40,18 +36,18 @@ body {
 }
 
 .topnav a:hover {
-	background-color: var(--navbar-hover);
-	color: var(--navbar-bg);
+	background-color: var(--purple-two);
+	color: var(--dark-purple);
 }
 
 .topnav a.active {
-	background-color: var(--navbar-active);
-	color: var(--green-five);
+	background-color: var(--purple);
+	color: var(--ivory);
 }
 
 a:link {
-	color: var(--green-one);
+	color: var(--purple-two);
 
 a:visited {
-	color: var(--green-five);
+	color: var(--purple-two);
 }
